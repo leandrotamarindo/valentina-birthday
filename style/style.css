@@ -27,6 +27,13 @@ body {
     gap: 15px;
 }
 
+.problema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 header {
     display: flex;
     justify-content: center;

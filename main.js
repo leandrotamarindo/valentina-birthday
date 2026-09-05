@@ -44,8 +44,16 @@ function verificarEnter(event) {
   }
 }
 
+function mostrar(){
+    console.log("fala meu fio");
+}
+
 function password() {
-    const senha = document.getElementById("senha").ariaValueMax;
+    const senha = document.getElementById("senha").value;
     console.log(senha);
-    if(senha == "Valentina") console.log("Conseguiu");
+    if(senha == "a"){
+        document.getElementById("areaMensagem").innerHTML = "<p>Conseguiiiiuuu</p>";
+        document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
+    } 
+    else document.getElementById("areaMensagem").innerHTML = "<p>Tenta de novo fia</p>"
 }
