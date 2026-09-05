@@ -38,21 +38,81 @@ function diminuir() {
     img.style.height = '100px'; // Volta à altura original quando o mouse sai
 }
 
-function verificarEnter(event) {
+function verificarEnter1(event) {
   if (event.key === "Enter") {
-    password();
+    password1();
   }
 }
 
-function mostrar(){
-    console.log("fala meu fio");
+function verificarEnter2(event) {
+  if (event.key === "Enter") {
+    password2();
+  }
 }
 
-function password() {
-    const senha = document.getElementById("senha").value;
+function verificarEnter3(event) {
+  if (event.key === "Enter") {
+    password3();
+  }
+}
+
+function verificarEnter4(event) {
+  if (event.key === "Enter") {
+    password4();
+  }
+}
+
+function verificarEnter5(event) {
+  if (event.key === "Enter") {
+    password5();
+  }
+}
+
+function password1() {
+    const senha = document.getElementById("senha1").value;
     console.log(senha);
-    if(senha == "a"){
+    if(senha == "kendrick lamar"){
         document.getElementById("areaMensagem").innerHTML = "<p>Conseguiiiiuuu</p>";
+        document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
+    } 
+    else document.getElementById("areaMensagem").innerHTML = "<p>Tenta de novo fia</p>"
+}
+
+function password2() {
+    const senha = document.getElementById("senha2").value;
+    console.log(senha);
+    if(senha == "paisanduuu"){
+        document.getElementById("areaMensagem").innerHTML = "<p>Bem demaisss</p>";
+        document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
+    } 
+    else document.getElementById("areaMensagem").innerHTML = "<p>Tenta de novo fia</p>"
+}
+
+function password3() {
+    const senha = document.getElementById("senha3").value;
+    console.log(senha);
+    if(senha == "japão foi bom demais"){
+        document.getElementById("areaMensagem").innerHTML = "<p>Falta poucooo</p>";
+        document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
+    } 
+    else document.getElementById("areaMensagem").innerHTML = "<p>Tenta de novo fia</p>"
+}
+
+function password4() {
+    const senha = document.getElementById("senha4").value;
+    console.log(senha);
+    if(senha == "zuriscreudo"){
+        document.getElementById("areaMensagem").innerHTML = "<p>Hi Hi Hi Haa</p>";
+        document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
+    } 
+    else document.getElementById("areaMensagem").innerHTML = "<p>Tenta de novo fia</p>"
+}
+
+function password5() {
+    const senha = document.getElementById("senha5").value;
+    console.log(senha);
+    if(senha == "asdfghjkli"){
+        document.getElementById("areaMensagem").innerHTML = "<p>ACABOOOUUUU</p>";
         document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
     } 
     else document.getElementById("areaMensagem").innerHTML = "<p>Tenta de novo fia</p>"
