@@ -30,10 +30,22 @@ document.addEventListener('click', iniciarMusica);
 
 function aumentar() {
     const img = document.getElementById('minhaImagem');
-    img.style.height = '150px'; // Nova altura ao passar o mouse
+    img.style.height = '120px'; // Nova altura ao passar o mouse
 }
 
 function diminuir() {
     const img = document.getElementById('minhaImagem');
     img.style.height = '100px'; // Volta à altura original quando o mouse sai
+}
+
+function verificarEnter(event) {
+  if (event.key === "Enter") {
+    password();
+  }
+}
+
+function password() {
+    const senha = document.getElementById("senha").ariaValueMax;
+    console.log(senha);
+    if(senha == "Valentina") console.log("Conseguiu");
 }
