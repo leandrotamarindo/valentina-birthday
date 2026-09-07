@@ -71,7 +71,7 @@ function verificarEnter5(event) {
 function password1() {
     const senha = document.getElementById("senha1").value;
     console.log(senha);
-    if(senha == "kendrick lamar"){
+    if(senha == "meowl"){
         document.getElementById("areaMensagem").innerHTML = "<p>Conseguiiiiuuu</p>";
         document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
     } 
@@ -81,7 +81,7 @@ function password1() {
 function password2() {
     const senha = document.getElementById("senha2").value;
     console.log(senha);
-    if(senha == "paisanduuu"){
+    if(senha == "paysanduu-u-u-u!"){
         document.getElementById("areaMensagem").innerHTML = "<p>Bem demaisss</p>";
         document.getElementById("areaBotao").innerHTML = "<button onclick='mostrar()'>Clique</button>";
     } 
